@@ -1,0 +1,85 @@
+.hidden {
+    display: none;
+};
+
+.row {
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 11vw;
+    background-color: beige;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    border: 1px solid greenyellow;
+    box-sizing: border-box;
+}
+
+
+#cards {
+    position: relative;
+    max-width: 650px;
+    text-align: center;
+    padding-top: 20px;
+}
+.blocker {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.13);
+    top: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.green {
+    background-color: green;
+}
+
+.rose {
+    background-color: rosybrown;
+}
+
+.black {
+    background-color: black;
+}
+
+.brown {
+    background-color: rgb(58, 48, 48);
+}
+
+.color-hidden {
+    background-color: beige;
+}
+
+#start {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.completo{
+    z-index: -1000000000000;
+}
